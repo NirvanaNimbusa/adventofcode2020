@@ -64,8 +64,6 @@ async function part02(entries: Entry[]) {
   console.log("Part 02:", correctCount);
 }
 
-// async function part02(inputs: number[]) {}
-
 async function main() {
   const entries = await readEntries();
 
